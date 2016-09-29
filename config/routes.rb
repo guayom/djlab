@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :social_networks
   get 'static_pages/home'
 
   devise_for :users
